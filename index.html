@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hei og velkommen!</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <br />
+
+    <div class="text1">
+
+        <div class="innerText1">
+
+            <h3>Hei mitt navn er Christoffer!</h3>
+
+            <p>
+                Her skal jeg lære litt om HTML, CSS og JavaScript.
+            </p>
+
+            <ul>
+                <li>Til dette bruker jeg VS Code, som jeg kan skrive kodene med.</li>
+                <li>VS Code står for Visual Studio Code.</li>
+                <li>Her er link til
+                    <a href="https://code.visualstudio.com/">
+                        VS Code</a>.
+                </li>
+            </ul>
+
+            <h3>Men kanskje litt introduksjon?</h3>
+
+            <ul>
+                <li>Som dere sikkert har skjønt, så er jeg interresert i koding.</li>
+                <li>Generelt sett så er jeg veldig interresert i data og teknologi.</li>
+                <li>Vokste opp med en far som er Sci-Fi fan, så jeg er naturligvis det selv.</li>
+                <li>Andre hobbyer jeg har er gaming, filmer, bøker og serier.</li>
+                <li>Innenfor bøker så er det spesielt fagrelaterte bøker og diktsamlinger jeg liker.</li>
+                <li>Jeg er også veldig glad i å være ute i naturen, spesielt på toppturer.</li>
+            </ul>
+
+        </div>
+
+        <p class="imgStyle1">
+            <img src="424922196_369484205789851_8023906571910256969_n.jpg" />
+        </p>
+
+    </div>
+
+    <br />
+
+    <div>
+        <div class="card">
+            <div class="header color1" onclick="helloOne()">Trykk her, så ser dere hilsen èn</div>
+            <div id="minTag1"></div>
+        </div>
+
+        <div class="card">
+            <div class="header color2" onclick="helloTwo()">Trykk her, så ser dere hilsen to</div>
+            <div id="minTag2"></div>
+        </div>
+
+        <div class="card">
+            <div class="header color3" onclick="blankAll()">Trykk her for reset</div>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="text2">
+
+        <h3>Tell opp og ned</h3>
+
+        <div style="display: flex;">
+
+            <button onclick="minus()">◀</button>
+
+            <div style="width: 40px; text-align: center; margin: 10px; font-size: 150%;" id="count1">
+                0
+            </div>
+
+            <button onclick="pluss()">▶</button>
+
+        </div>
+
+        <br />
+
+        <div>
+
+            <button style="width: 95px; text-align: center; margin: 10px; padding: 10px;" onclick="resetAll()">
+                Reset
+            </button>
+
+        </div>
+
+    </div>
+
+    <div style="display: flex; background-color: rgb(232, 190, 136); justify-content: center; margin: 20px; padding: 10px; height: 100px;"
+        id="mainDiv"></div>
+
+    <div class="buttonsColor">
+
+        <button style="width: 95px; text-align: center; margin: 10px; padding: 10px;"
+            onclick="farge1('red', 100, 100)">Farge
+            1</button>
+        <button style="width: 95px; text-align: center; margin: 10px; padding: 10px;"
+            onclick="farge1('blue', 100, 100)">Farge
+            2</button>
+        <button style="width: 95px; margin: 10px; padding: 10px;" onclick="resetFarge()">Reset</button>
+
+    </div>
+
+    <div class="outputStil2">
+
+        <div id="output"></div><br>
+
+    </div>
+
+    <div class="outputStil">
+        <button style="width: 95px; margin: 10px; padding: 10px;" onclick="setNum(16)">Sett nummeret til
+            16</button>
+        <button style="width: 95px; margin: 10px; padding: 10px;" onclick="setNum(47)">Sett nummeret til
+            47</button>
+        <br><br>
+        <button style="width: 95px; margin: 10px; padding: 10px;" onclick="increaseNum()">Øk nummeret
+            med èn</button> <br>
+        <button style="width: 95px; margin: 10px; padding: 10px;" onclick="secondNum()">Legg til tallet
+            2</button>
+        <button style="width: 95px; margin: 10px; padding: 10px;" onclick="resetNum()">Reset</button>
+    </div>
+
+    <script src="main.js" ;></script>
+
+</body>
+
+</html>

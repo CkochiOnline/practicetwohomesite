@@ -1,0 +1,66 @@
+div.color1 {
+    background-color: rgb(116, 116, 241);
+}
+
+div.color2 {
+    background-color: rgb(125, 192, 207);
+}
+
+div.color3 {
+    background-color: rgb(99, 166, 208);
+}
+
+div.card {
+    background-color: rgba(243, 130, 102, 0.908);
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
+div.header {
+    text-align: center;
+    padding: 10px;
+}
+
+div.text1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 15px;
+}
+
+div.text2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 212, 125);
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.buttonsColor {
+    display: flex;
+    justify-content: center;
+}
+
+div.outputStil {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 86, 86);
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+}
+
+div.outputStil2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 176, 176);
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    font-size: 150%;
+}
